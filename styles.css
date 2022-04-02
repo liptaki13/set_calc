@@ -1,0 +1,159 @@
+body {
+	text-align: center;
+	/*background: linear-gradient(to right, #FFFF90, #9BEC8E);*/
+	background-color: #93F0F2;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8vh;
+	overflow: hidden;
+}
+
+.container {
+	display: block;
+	margin: auto;
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	/*flex-direction: column;*/
+	/*flex: 1;*/
+	width:80%; /* <- how much of the main container */
+	/*height: 100vh;*/
+
+
+	/*overflow-x: hidden*/
+	/*background-color: blue;*/
+}
+
+
+.header-div {
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	text-align: center;
+	height: 10vh;
+	max-height: 8%;
+	/*margin: 8px;*/
+	/*background-color: green;*/
+/*	margin-left: auto;
+	margin-right: auto;*/
+	/*flex: 1;*/
+	/*padding: 5px;*/
+
+}
+
+.meta-container {
+	text-align: center;
+	display: flex;
+	/*justify-content: left;*/
+	/*display: block;
+	margin: auto;*/
+	/*height: 30vw;*/
+	/*width: 60vw;*/
+	/*background-color: beige;*/
+}
+
+.tone-clock {
+	flex: 1;
+	/*background-color: #F9BDFC;*/
+	/*width: 66%;*/
+	/*height: 100%;*/
+	/*border: 1px solid #666;*/
+	
+	/*flex-grow: 1;*/
+}
+
+.right-div {
+	flex: 1;
+	display: flex;
+	/*width: 10%;*/
+	/*height: 100%;*/
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*background-color: blueviolet;*/
+	/*min-height: 100px;*/
+	/*font-size: 1.2rem;*/
+	/*padding: 15px;*/
+}
+
+.row-1 {
+	flex: 1;
+	/*background-color: limegreen;*/
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 80%;
+
+	/*max-height: 100px;*/
+	/*margin: 10px;*/
+	/*padding: 10px;*/
+}
+
+.button {
+	border: 2.5px solid ghostwhite;
+	color: white;
+	text-decoration-style: double;
+	height: 50px;
+	min-width: 60px;
+  text-shadow: 0px 0px 5px #676666;
+	cursor: pointer;
+	background-color: #ffd500;
+	/*margin:25px;*/
+	justify-content: center;
+	align-items: center;
+}
+
+.row-2 { /* 2nd row enter field div */
+	display: flex;
+	flex: 1;
+	/*background-color: green;*/
+}
+
+.enter-field {
+	flex-direction: column;
+	flex-direction: row;
+	justify-content: center;
+	/*background-color: lightpink;*/
+	/*margin: 10px;*/
+	/*flex: 1;*/
+}
+
+.row-3 {
+	display: flex;
+	flex: 1;
+}
+
+.cycle-field {
+	flex-direction: column;
+	flex-direction: row;
+	justify-content: center;
+	/*background-color: lightblue;*/
+	/*margin: 10px;*/
+	/*flex: 1;*/
+}
+
+.row-4 {
+	flex: 1;
+	/*background-color: lightpink;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.6rem;
+}
+
+.row-5 {
+	flex: 1;
+	/*background-color: lightpink;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.6rem;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+
